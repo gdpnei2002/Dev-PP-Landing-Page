@@ -18,7 +18,7 @@ export class MenuComponent {
   @Input() menus: MenuItem[] = [];
   @Input() socialNetworks: SocialNetwork[] = [];
   show: any;
-  
+
   open = false;
 
   closed(){
