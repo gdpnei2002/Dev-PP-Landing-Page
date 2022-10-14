@@ -57,67 +57,69 @@
     }
 }
 
-@media screen and (min-width: 699px) and (max-width: 1200px) {
+// @media screen and (min-width: 699px) and (max-width: 1200px) {
+// }
 
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .footer{
-        margin: auto;
-        width: 700px;
-        padding-left: 3vw;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
 
         .flex{
             display: block;
+            margin-left: 18vw;
 
             .cod-conduct{
                 display: none;
             }
 
             .arrow2{
-                margin-right: 10px;
                 width: 32px;
-                display: flex;
-                align-items: center;
             }
+
             img{
-                margin-left: 40%;
                 justify-content: center;
                 align-items: center;
+                margin-left: 21.5vw;
+                margin-top: 7vw;
             }
+
             p{
                 font-weight: 700;
                 font-size: 2rem;
                 line-height: 42px;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+                text-align: center;
+                margin-left: -11vw;
+                width: 100%;
+                padding-left: 4vw;
+                padding-right: 4vw;
             }
             .community{
                 font-size: 1rem;
                 margin-bottom: 60px;
-                margin-left: 132px;
                 line-height: 130%;
-                width: 312px;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
+                width: 100%;
             }
             .copyright{
-                display: flex;
-                align-items: center;
                 color: #514E58;
+                width: 100%;
                 font-size: 0.875rem;
                 margin-bottom: 32px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                line-height: 130%;
+            }
+            .arrow1{
+                display: none;
+            }
+            .arrow2{
+                display: block;
+                margin-top: -4vw;
+                margin-left: 24vw;
             }
         }
-
-        .arrow1{
-            display: none;
-        }
-    
     }
 }

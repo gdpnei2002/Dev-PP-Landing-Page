@@ -72,3 +72,16 @@
         }    
     }     
 }
+
+@media screen and (max-width: 473px) {
+    #home {
+        height: 980px;
+        .content{
+            .mouse-scroll {
+                padding-top: 104px;
+                margin-bottom: 30px;
+                background-color: transparent;
+            }
+        }
+    }
+}
