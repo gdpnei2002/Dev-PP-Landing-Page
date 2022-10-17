@@ -57,7 +57,17 @@
     }
 }
 
-// @media screen and (min-width: 699px) and (max-width: 1200px) {
+// @media screen and (min-width: 550px) and (max-width: 800px) {
+//     .footer{
+//         .flex{
+//             .community{
+//                 margin-top: 0;
+//             }
+//             .arrow2{
+//                 margin-top: -12vw;
+//             }
+//         }
+//     }
 // }
 
 @media screen and (max-width: 800px) {
@@ -98,6 +108,7 @@
                 padding-right: 4vw;
             }
             .community{
+                margin-top: -8vh;
                 font-size: 1rem;
                 margin-bottom: 60px;
                 line-height: 130%;
@@ -117,7 +128,7 @@
             }
             .arrow2{
                 display: block;
-                margin-top: -4vw;
+                margin-top: -12vw;
                 margin-left: 24vw;
             }
         }
