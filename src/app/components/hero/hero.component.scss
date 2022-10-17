@@ -69,16 +69,20 @@
                     width: 300px;
                 }
             }
+            .mouse-scroll {
+                padding-top: -250px;
+                margin-bottom: 30px;
+                background-color: transparent;
+            }
         }    
     }     
 }
 
 @media screen and (max-width: 473px) {
     #home {
-        height: 980px;
         .content{
             .mouse-scroll {
-                padding-top: 104px;
+                padding-top: 50px;
                 margin-bottom: 30px;
                 background-color: transparent;
             }

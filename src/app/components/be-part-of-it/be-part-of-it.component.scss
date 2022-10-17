@@ -24,6 +24,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         margin-bottom: 48px;
+        letter-spacing: 0.24em;
     }
     h1{
         margin-top: 80px;
@@ -76,12 +77,16 @@
 
 @media screen and (max-width: 800px) {
     .be-part{
+        background-image: url("../../../assets/images/background-image/be-part-mb.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         padding-left: 3vw;
         padding-right: 3vw;
         h2{
-            font-weight: 700;
-            font-size: 1.25rem;
+            font-size: 1.75rem;
             text-align: center;
+            margin-bottom: 0;
+            margin-top: 10vh;
         }
         h1{
             padding: 0;

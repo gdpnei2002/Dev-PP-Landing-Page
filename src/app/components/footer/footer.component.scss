@@ -85,18 +85,19 @@
             .cod-conduct{
                 display: none;
             }
-
-            .arrow2{
-                width: 32px;
-            }
-
+            
             img{
                 justify-content: center;
                 align-items: center;
-                margin-left: 21.5vw;
+                margin-left: 25.5vw;
                 margin-top: 7vw;
             }
 
+            .img1{
+                margin-top: 6vh;
+                margin-bottom: 2vh;
+            }
+            
             p{
                 font-weight: 700;
                 font-size: 2rem;
@@ -104,8 +105,7 @@
                 text-align: center;
                 margin-left: -11vw;
                 width: 100%;
-                padding-left: 4vw;
-                padding-right: 4vw;
+                padding-left: 7vw;
             }
             .community{
                 margin-top: -8vh;
@@ -127,9 +127,11 @@
                 display: none;
             }
             .arrow2{
+                width: 32px;
                 display: block;
-                margin-top: -12vw;
-                margin-left: 24vw;
+                margin-top: -10vw;
+                margin-bottom: 4vw;
+                margin-left: 29vw;
             }
         }
     }
