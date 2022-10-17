@@ -61,7 +61,11 @@
 
 @media screen and (max-width: 800px) {
     #home { 
-        height: 800px;
+        background-image: url("../../../assets/images/background-image/BG2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #01050c;
+        width: 100%;
         .content {
             h1 {
                 &.text-large {
